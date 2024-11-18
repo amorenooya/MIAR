@@ -12,8 +12,7 @@ def gradiente_descendente(grad_f, x0, gamma, tol, maxit):
     - maxit: Número máximo de iteraciones (int).
 
     Retorna:
-    - x: Aproximación del mínimo encontrada (numpy array).
-    - iteraciones: Número de iteraciones realizadas.
+    - Aproximación del mínimo encontrada (numpy array).
     """
     x = x0
     for i in range(maxit):
